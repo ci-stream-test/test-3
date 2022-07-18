@@ -7,7 +7,7 @@ on:
     target-branches:
       - main
     paths:
-      - .ci/all-mr.yml
+      - .ci/2.yml
   
 variables:
   WINDOW_TRIGGER: false

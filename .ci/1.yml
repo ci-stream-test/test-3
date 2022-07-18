@@ -1,7 +1,0 @@
-stages:
-- name: 预设替换变量1
-  jobs:
-    all-job-0:
-      steps:
-      - run: |
-          echo "::set-variable name=EVENT::${{ci.event}}"

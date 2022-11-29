@@ -7,5 +7,6 @@ stages:
 - jobs:
     all-job-0:
       steps:
+      - checkout: self
       - run: |
           echo "::set-variable name=EVENT::${{ci.event}}"
